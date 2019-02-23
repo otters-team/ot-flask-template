@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "{{ cookiecutter.project_name }}"
+version = "0.1.0"
+description = ""
+authors = ["{{ cookiecutter.author }}"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^1.0"
+flask-sqlalchemy = "^2.3"
+python-dotenv = "^0.10.1"
+flask-migrate = "^2.3"
+flask-restful = "^0.3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+mypy = "^0.630"
+flake8 = "^3.7"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
