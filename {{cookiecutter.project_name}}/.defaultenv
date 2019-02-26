@@ -1,0 +1,3 @@
+DATABASE_URI='postgresql://user:password@localhost/{{ cookiecutter.project_name }}'
+PYTHONBUFFERED='TRUE'
+DEBUG='0'

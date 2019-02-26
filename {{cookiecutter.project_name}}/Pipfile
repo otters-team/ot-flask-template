@@ -3,15 +3,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-[packages]
-flask = "==1.0.2"
-flask-restplus = "==0.12.1"
-marshmallow = "==2.16.0"
-flask-sqlalchemy = "==2.3.2"
+[requires]
+python_version = "3.7"
 
 [dev-packages]
 mypy = "==0.630"
-wemake-python-styleguide = "==0.2.0"
+pytest = "==3.0"
+flake8 = "==3.7"
 
-[requires]
-python_version = "3.7"
+[packages]
+flask = "1.0"
+flask-sqlalchemy = "2.3"
+python-dotenv = "0.10.1"
+flask-migrate = "2.3"
+flask-restful = "0.3.7"
